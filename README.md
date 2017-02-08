@@ -4,6 +4,7 @@ In this repository, I will publish write ups of the challenges that are availabl
 
 ## Toddler's Bottle
 - [random](random/random.md)
+- [mistake](mistake/mistake.md)
 - [coin1](coin1/coin1.md)
 - [cmd1](cmd1/cmd1.md)
 
