@@ -6,6 +6,7 @@ In this repository, I will publish write ups of the challenges that are availabl
 - [collision](collision/collision.md)
 - [random](random/random.md)
 - [mistake](mistake/mistake.md)
+- [shellshock](shellshock/shellshock.md)
 - [coin1](coin1/coin1.md)
 - [cmd1](cmd1/cmd1.md)
 
