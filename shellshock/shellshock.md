@@ -23,7 +23,7 @@ int main(){
 }
 ```
 
-Shellshock is a vulnerability in bash, where bash incorrectly exectutes trailing commands when it imports a function definition stored into an environment variable.
+Shellshock is a vulnerability in bash, where bash incorrectly executes trailing commands when it imports a function definition stored into an environment variable.
 
 This is how shellshock works:
 
