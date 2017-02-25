@@ -10,6 +10,7 @@ In this repository, I will publish write ups of the challenges that are availabl
 - [shellshock](shellshock/shellshock.md)
 - [coin1](coin1/coin1.md)
 - [blackjack](blackjack/blackjack.md)
+- [lotto](lotto/lotto.md)
 - [cmd1](cmd1/cmd1.md)
 - [cmd2](cmd2/cmd2.md)
 
