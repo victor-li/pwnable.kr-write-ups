@@ -5,6 +5,7 @@ In this repository, I will publish write ups of the challenges that are availabl
 ## Toddler's Bottle
 - [buf](buf/buf.md)
 - [collision](collision/collision.md)
+- [flag](flag/flag.md)
 - [random](random/random.md)
 - [mistake](mistake/mistake.md)
 - [shellshock](shellshock/shellshock.md)
