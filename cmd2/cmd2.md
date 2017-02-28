@@ -11,7 +11,7 @@ total 20
 ```
 
 ### cmd2.c
-```
+```c
 #include <stdio.h>
 #include <string.h>
 

@@ -12,8 +12,7 @@ total 960
 ```
 
 ### shellshock.c
-
-```
+```c
 #include <stdio.h>
 int main(){
 	setresuid(getegid(), getegid(), getegid());

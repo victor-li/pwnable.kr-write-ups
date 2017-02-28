@@ -4,7 +4,7 @@ The source code of the challenge can be found [here](https://cboard.cprogramming
 
 This challenge is based on a very simple mistake that the programmer made.
 
-```
+```c
 721 int betting() //Asks user amount to bet
 722 {
 723  printf("\n\nEnter Bet: $");
@@ -25,7 +25,7 @@ This function asks the player how much he/she wants to bet this round and then c
 
 After the betting function, the game starts. Based on the outcome of the cards, the logic will decide if the player or the dealer wins. Line 689 is an example of the logic that adds or subtracts cash from the balance of the player.
 
-```
+```c
 671 void stay() //Function for when user selects 'Stay'
 672 {
 673      dealer(); //If stay selected, dealer continues going

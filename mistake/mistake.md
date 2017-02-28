@@ -13,7 +13,7 @@ total 24
 ```
 
 ### mistake.c
-```
+```c
 #include <stdio.h>
 #include <fcntl.h>
 
@@ -28,7 +28,7 @@ void xor(char* s, int len){
 }
 
 int main(int argc, char* argv[]){
-	
+
 	int fd;
 	if(fd=open("/home/mistake/password",O_RDONLY,0400) < 0){
 		printf("can't open password %d\n", fd);
@@ -109,7 +109,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 Use these characters to solve the challenge:
 
 ```
-mistake@ubuntu:~$ ./mistake 
+mistake@ubuntu:~$ ./mistake
 do not bruteforce...
 0000000000
 input password : 1111111111

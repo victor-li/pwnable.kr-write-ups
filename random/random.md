@@ -12,7 +12,7 @@ total 20
 ```
 
 ### random.c
-```
+```c
 #include <stdio.h>
 
 int main(){
@@ -38,7 +38,7 @@ In this challenge we need to make sure that `key ^ random` is equal to `0xdeadbe
 Not every OS/system has the same implementation of the `rand` function. Therefore we need to determine which random value will be generated on the server.
 
 ### /tmp/test/rand.c
-```
+```c
 #include <stdio.h>
 
 int main(){

@@ -11,7 +11,7 @@ total 16
 ```
 
 ### col.c
-```
+```c
 #include <stdio.h>
 #include <string.h>
 unsigned long hashcode = 0x21DD09EC;

@@ -11,7 +11,7 @@ total 24
 ```
 
 ### lotto.c
-```
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -20,7 +20,7 @@ total 24
 unsigned char submit[6];
 
 void play(){
-	
+
 	int i;
 	printf("Submit your 6 lotto bytes : ");
 	fflush(stdout);
@@ -46,7 +46,7 @@ void play(){
 		lotto[i] = (lotto[i] % 45) + 1;		// 1 ~ 45
 	}
 	close(fd);
-	
+
 	// calculate lotto score
 	int match = 0, j = 0;
 	for(i=0; i<6; i++){

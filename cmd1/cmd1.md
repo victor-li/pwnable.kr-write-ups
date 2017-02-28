@@ -12,7 +12,7 @@ total 20
 ```
 
 ### cmd1.c
-```
+```c
 #include <stdio.h>
 #include <string.h>
 

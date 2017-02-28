@@ -1,7 +1,7 @@
 # bof
 
 ### bof.c
-```
+```c
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -93,12 +93,12 @@ C programs compiled with the default configuration will have stack smashing dete
 ```
 victorli@ubuntu:~$ ./bof
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX # 32x
-overflow me : 
+overflow me :
 Nah..
 victorli@ubuntu:~$ ./bof
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX # 33x
 *** stack smashing detected ***: /home/bof/bof terminated
-overflow me : 
+overflow me :
 Nah..
 ```
 
