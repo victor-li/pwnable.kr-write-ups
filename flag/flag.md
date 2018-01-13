@@ -1,6 +1,6 @@
 # flag
 
-The binary of this challenge can be found here: [http://pwnable.kr/bin/flag]().
+The binary of this challenge can be found here: <http://pwnable.kr/bin/flag>.
 
 Let's execute the binary to see what it does:
 
