@@ -106,6 +106,6 @@ However, this would not be a problem for this challenge, since the stack smashin
 
 Because it is not always clear how many bytes will be between the `overflowme` buffer and the `key` int, we can just brute force the length of the padding before our payload until we get a shell. The `key` parameter need to become `0xcafebabe`, but because C uses the little endian format for int's, we need to reverse the byte order to `\xBE\xBA\xFE\xCA`.
 
-The code that I used for this challenge can be found [here](bof.py).
+The code that I used for this challenge can be found [here](src/bof.py).
 
 If you want to read more about buffer overflowing: <https://www.sans.org/reading-room/whitepapers/threats/buffer-overflows-dummies-481>

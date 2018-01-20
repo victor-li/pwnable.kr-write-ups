@@ -40,6 +40,8 @@ For every subset, the first half of the coins will be submitted to the server. I
 
 In my case, the Python code needs to be executed on the `pwnable.kr` server, because the response from the server is too slow when I execute it from my computer and then the challenge times out. Do not forget to change the host address to `localhost` when the code in executed from the `pwnable.kr` server.
 
+The code that I used for this challenge can be found [here](src/coin1.py).
+
 ```
 someserver@ubuntu:/tmp/test$ python client.py
 .
