@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
-import socket
+import socket, sys
 
 class bcolors:
     HEADER = '\033[95m'
@@ -16,14 +16,17 @@ class bcolors:
 
 def log(message):
     print bcolors.OKGREEN + message + bcolors.ENDC
+    sys.stdout.flush()
 
 
 def log_client(message):
     print bcolors.HEADER + message + bcolors.ENDC
+    sys.stdout.flush()
 
 
 def log_server(message):
     print bcolors.OKBLUE + message + bcolors.ENDC
+    sys.stdout.flush()
 
 
 class CTFServer:
